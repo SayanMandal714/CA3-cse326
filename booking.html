@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Booking Form</title>
+    <link rel="stylesheet" href="b1.css" />
+  </head>
+  <body>
+    <div class="booking-form-container">
+      <h1>Book Your Trip</h1>
+      <form>
+        <label for="name">Full Name</label>
+        <input
+          type="text"
+          id="name"
+          name="name"
+          placeholder="Enter your full name"
+          required
+        />
+
+        <label for="email">Email Address</label>
+        <input
+          type="email"
+          id="email"
+          name="email"
+          placeholder="Enter your email address"
+          required
+        />
+
+        <label for="destination">Destination</label>
+        <input
+          type="text"
+          placeholder="Enter your Destination "
+          id="destination"
+          name="destination"
+        />
+
+        <label for="date">Travel Date</label>
+        <input type="date" id="date" name="date" required />
+
+        <label for="guests">Number of Guests</label>
+        <input
+          type="number"
+          id="guests"
+          name="guests"
+          placeholder="Enter number of guests"
+          required
+        />
+
+        <label for="message">Special Requests</label>
+        <textarea
+          id="message"
+          name="message"
+          rows="4"
+          placeholder="Add any special requests"
+        ></textarea>
+
+        <button type="submit" class="submit-button">Book Now</button>
+      </form>
+    </div>
+  </body>
+</html>
